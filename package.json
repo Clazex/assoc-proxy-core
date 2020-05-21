@@ -1,0 +1,43 @@
+{
+	"name": "assoc-proxy-core",
+	"version": "0.0.1",
+	"description": "Core module for Assoc-Proxy",
+	"main": "src/main.js",
+	"scripts": {
+		"build": "babel src -d dist --minified --delete-dir-on-start",
+		"lint": "eslint --ext .js --ignore-path .gitignore ./",
+		"fix": "npm run lint -- --fix",
+		"test": "node test/build/test",
+		"build-test": "babel test -d test/build --minified --delete-dir-on-start",
+		"prepublishOnly": "npm run fix && npm run build && npm run build-test && npm run test"
+	},
+	"author": "sciencmine",
+	"license": "AGPL-3.0-or-later",
+	"files": [
+		"/src"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Sciencmine/assoc-proxy-core.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Sciencmine/assoc-proxy-core/issues"
+	},
+	"homepage": "https://github.com/Sciencmine/assoc-proxy-core#readme",
+	"devDependencies": {
+		"@babel/cli": "^7.8.4",
+		"@babel/core": "^7.9.6",
+		"@babel/preset-env": "^7.9.6",
+		"babel-eslint": "^10.1.0",
+		"eslint": "^7.0.0",
+		"eslint-config-standard": "^14.1.1",
+		"eslint-plugin-import": "^2.20.2",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-promise": "^4.2.1",
+		"eslint-plugin-standard": "^4.0.1"
+	},
+	"dependencies": {
+		"ajv": "^6.12.2",
+		"fs-extra": "^9.0.0"
+	}
+}

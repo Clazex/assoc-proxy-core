@@ -1,0 +1,23 @@
+{
+	"recommendations": [
+		"codezombiech.gitignore",
+		"christian-kohler.npm-intellisense",
+		"christian-kohler.path-intellisense",
+		"coenraads.bracket-pair-colorizer-2",
+		"dbaeumer.vscode-eslint",
+		"eamodio.gitlens",
+		"editorconfig.editorconfig",
+		"eg2.vscode-npm-script",
+		"formulahendry.auto-close-tag",
+		"formulahendry.auto-rename-tag",
+		"ibm.output-colorizer",
+		"mgmcdermott.vscode-language-babel",
+		"mkxml.vscode-filesize",
+		"redhat.vscode-yaml",
+		"streetsidesoftware.code-spell-checker",
+		"visualstudioexptteam.vscodeintellicode"
+	],
+	"unwantedRecommendations": [
+		"ms-vscode.vscode-typescript-tslint-plugin"
+	]
+}
