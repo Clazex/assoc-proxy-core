@@ -1,0 +1,16 @@
+{
+	"app": "assoc-proxy",
+	"version": "1.0.0",
+	"data": {
+		"applications": [
+			{
+				"name": "Notepad++",
+				"arg": "notepad++ --path-missing"
+			}
+		],
+		"associations": {
+			"file-extensions": [],
+			"uri-schemes": []
+		}
+	}
+}

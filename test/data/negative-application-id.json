@@ -1,0 +1,17 @@
+{
+	"app": "assoc-proxy",
+	"version": "1.0.0",
+	"data": {
+		"applications": [],
+		"associations": {
+			"uri-schemes": [
+				{
+					"id": "http",
+					"applications": [
+						-1
+					]
+				}
+			]
+		}
+	}
+}

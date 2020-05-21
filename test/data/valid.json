@@ -1,0 +1,61 @@
+{
+	"app": "assoc-proxy",
+	"version": "1.0.0",
+	"data": {
+		"applications": [
+			{
+				"name": "Notepad++",
+				"arg": "notepad++ ${path}"
+			},
+			{
+				"name": "VS Code",
+				"arg": "code ${path}"
+			},
+			{
+				"name": "Opera",
+				"arg": "opera ${path}"
+			},
+			{
+				"name": "Vim",
+				"arg": "vim ${path}"
+			},
+			{
+				"name": "Vim Read-Only",
+				"arg": "vim -R ${path}"
+			}
+		],
+		"associations": {
+			"file-extensions": [
+				{
+					"id": "txt",
+					"applications": [
+						0,
+						1,
+						3,
+						4
+					]
+				},
+				{
+					"id": "js",
+					"applications": [
+						1
+					]
+				}
+			],
+			"uri-schemes": [
+				{
+					"id": "http",
+					"applications": [
+						2
+					]
+				},
+				{
+					"id": "https",
+					"applications": [
+						2
+					]
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"app": "assoc-proxy",
+	"version": "1.0.0",
+	"data": {
+		"applications": [
+			{
+				"name": "Invalid\tName",
+				"arg": "app ${path}"
+			}
+		],
+		"associations": {
+			"file-extensions": [],
+			"uri-schemes": []
+		}
+	}
+}
