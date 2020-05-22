@@ -5,23 +5,39 @@
 		"applications": [
 			{
 				"name": "Notepad++",
-				"path": "notepad++ ${path}"
+				"command": "notepad++",
+				"args": [
+					"${path}"
+				]
 			},
 			{
 				"name": "VS Code",
-				"path": "code ${path}"
+				"command": "code",
+				"args": [
+					"${path}"
+				]
 			},
 			{
 				"name": "Opera",
-				"path": "opera ${path}"
+				"command": "opera",
+				"args": [
+					"${path}"
+				]
 			},
 			{
 				"name": "Vim",
-				"path": "vim ${path}"
+				"command": "vim",
+				"args": [
+					"${path}"
+				]
 			},
 			{
 				"name": "Vim Read-Only",
-				"path": "vim -R ${path}"
+				"command": "vim",
+				"args": [
+					"-R",
+					"${path}"
+				]
 			}
 		],
 		"associations": {

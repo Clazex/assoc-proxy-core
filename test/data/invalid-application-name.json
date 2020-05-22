@@ -5,7 +5,10 @@
 		"applications": [
 			{
 				"name": "Invalid\tName",
-				"arg": "app ${path}"
+				"command": "app",
+				"args": [
+					"${path}"
+				]
 			}
 		],
 		"associations": {

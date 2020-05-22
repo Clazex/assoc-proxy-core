@@ -38,16 +38,25 @@ const dataSchema = {
 			items: {
 				type: "object",
 
-				required: ["name", "arg"],
+				required: ["name", "command", "args"],
 
 				properties: {
 					name: {
 						type: "string",
 						pattern: "^(?:[^\\s]|[ ])+$"
 					},
-					arg: {
-						type: "string",
-						pattern: "\\$\\{path\\}"
+					command: {
+						type: "string"
+					},
+					args: {
+						type: "array",
+						items: {
+							type: "string"
+						},
+						contains: {
+							type: "string",
+							pattern: "\\$\\{path\\}"
+						}
 					}
 				}
 			}

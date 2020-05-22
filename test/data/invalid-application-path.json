@@ -5,7 +5,10 @@
 		"applications": [
 			{
 				"name": "Notepad++",
-				"arg": "notepad++ --path-missing"
+				"command": "notepad++",
+				"args": [
+					"--path-missing"
+				]
 			}
 		],
 		"associations": {
