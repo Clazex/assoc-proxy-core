@@ -1,8 +1,8 @@
 {
 	"name": "assoc-proxy-core",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Core module for Assoc-Proxy",
-	"main": "src/main.js",
+	"main": "dist/main.js",
 	"scripts": {
 		"build": "babel src -d dist --minified --delete-dir-on-start",
 		"lint": "eslint --ext .js --ignore-path .gitignore ./",
@@ -14,7 +14,7 @@
 	"author": "sciencmine",
 	"license": "AGPL-3.0-or-later",
 	"files": [
-		"/src"
+		"/dist"
 	],
 	"repository": {
 		"type": "git",
