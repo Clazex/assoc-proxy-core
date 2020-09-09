@@ -37,7 +37,7 @@
 		"eslint-plugin-standard": "^4.0.1"
 	},
 	"dependencies": {
-		"ajv": "^6.12.2",
+		"ajv": "^6.12.4",
 		"fs-extra": "^9.0.0"
 	}
 }
